@@ -26,7 +26,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://djangoapplast-env.eba-2u24axpk.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
@@ -56,7 +56,6 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-ALLOWED_HOSTS = ['http://djangoapplast-env.eba-2u24axpk.us-east-1.elasticbeanstalk.com']
 
 
 CORS_ORIGIN_WHITELIST = [
