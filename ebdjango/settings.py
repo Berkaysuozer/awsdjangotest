@@ -56,6 +56,9 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
+ALLOWED_HOSTS = ['http://djangoapplast-env.eba-2u24axpk.us-east-1.elasticbeanstalk.com']
+
+
 CORS_ORIGIN_WHITELIST = [
     'http://google.com',
     'http://hostname.example.com',
